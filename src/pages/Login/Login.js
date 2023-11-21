@@ -21,7 +21,7 @@ const Login = () => {
                         </li>
                         <div class="p-container">
                             <label class="checkbox"><input type="checkbox" name="checkbox" checked/><i></i>Remember Me</label>
-                            <h6><a href="ACCOUNT-RESET.html">Forgot Password ?</a> </h6>
+                            <h6><a href="/forgotpassword">Forgot Password ?</a> </h6>
                             <div class="clear"> </div>
                         </div>
                         <div class="submit">
@@ -36,7 +36,7 @@ const Login = () => {
                                 <div class="clear"> </div>
                             </ul>
                         </div>
-                        <h5>Don't have an account ?<a href="REGISTER.html"> Sign Up </a></h5>
+                        <h5>Don't have an account ?<a href="/register"> Sign Up </a></h5>
                     </form>
                 </div>
             </div>

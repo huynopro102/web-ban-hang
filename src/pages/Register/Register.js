@@ -1,4 +1,4 @@
-import "../Register/Register.css"
+
 const Register = () => {
     return (
         <>
@@ -10,24 +10,19 @@ const Register = () => {
                         <lable></lable>
                     </div>
                     <form>
-                        <li>
-                            <input type="text" class="text" value="Invitation Code" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'code';}" /><a href="#" class=" icon2 num"></a>
-                        </li>
-                        <li>
-                            <input type="text" class="text" value="Full Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Full Name';}" /><a href="#" class=" icon2 name"></a>
-                        </li>
+                    
                         <li>
                             <input type="text" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" /><a href="#" class=" icon2 user2"></a>
                         </li>
-                        <li style="height:47px;">
-                            <select style="height:47px;width:88%;float:right;" type="text" class="text" value="Username" ><a href="#" class=" icon2 user2"></a>
+                        {/* <li style={{ height: '47px' }}>
+                            <select style={{height: '47px' , width:'88%' ,float:'right' }} type="text" class="text" value="Username" ><a href="#" class=" icon2 user2"></a>
                                 <option value="volvo">optional</option>
                                 <option value="saab">option 1</option>
                                 <option value="opel">option 2</option>
                                 <option value="audi">option 3</option>
                             </select>
                             <a href="#" class=" icon2 user2"></a>
-                        </li>
+                        </li> */}
                         <li>
                             <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"/><a href="#" class=" icon2 lock2"></a>
                         </li>
@@ -37,13 +32,11 @@ const Register = () => {
                         <li>
                             <input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" /><a href="#" class=" icon2 mail"></a>
                         </li>
-                        <div class="p-container">
-                            <label><input type="checkbox" name="checkbox" /><i></i>I agree to the <a href="#">Terms of Servicee</a></label>
-                        </div>
+        
                         <div class="submit two">
                             <input type="submit" value="SIGN UP" />
                         </div>
-                        <h5>Already a member ?<a href="LOGIN.html"> Login Here</a></h5>
+                        <h5>Already a member ?<a href="/login"> Login Here</a></h5>
                     </form>
                 </div>
             </div>
